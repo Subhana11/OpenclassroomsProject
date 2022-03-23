@@ -1,0 +1,895 @@
+
+*
+{
+   box-sizing: border-box;
+   font-family:'Raleway','sans-serrif'
+}*
+header
+{
+    display:flex;
+    height: 120px;
+}
+body
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navbar
+{
+    display:flex;
+    justify-content: flex;
+    flex:1;
+    padding:0px;
+}
+.logo{
+    flex:2
+}
+.hebergement
+{
+    padding: 40px;
+    text-decoration: none;
+    color:black;
+    font: size 16px;
+    font-weight: 600;
+}
+.activity
+{
+    padding: 40px;
+    text-decoration:none;
+    color:black;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.logo
+{
+    padding:40px;
+}
+.activity:hover 
+{
+    border-top: solid 3px ;  
+    color: #0065fc
+}
+.hebergement:hover
+{
+    border-top:solid 3px ;
+    color: #0065fc;
+}
+img
+{
+    width: 90px;
+}
+                            /* end navbar*/
+h1
+{
+   font-size: 20px;
+   margin-block-start: 0px;
+   margin-block-end: 0px;
+}
+.section1
+{
+    margin-left: 30px;  
+}
+.subtitle
+{
+    margin-block-start:6px;  
+    font: size 12px;
+    font-weight: 250;
+    margin-bottom: 20px;
+}
+.form
+{
+    display:flex;
+    flex-direction:row;
+    padding:20 20 20 0px ;
+    width: 450px;
+}
+.search-btn
+{
+    border-radius: 0px 10px 10px 0px;
+    width: 130px;
+    height: 50px;  
+    background-color: #0065fc;
+    color:white;
+    font-size: medium;
+    font-weight:bold;
+    border:#0065fc;
+}
+.search-area{
+    width: 200px; 
+    height: 50px;
+    border:grey;
+    padding-left: 10px;
+    font-size: medium;
+    font-weight:bold; 
+}
+.icone
+{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    background-color:#F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+                     /*end section1 search-area*/
+
+.filter
+{
+    display:flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    align-items: center;
+}
+h3
+{
+    margin-right: 30px;
+}
+.filtertexticons
+{
+    border:3px solid #F2F2F2;
+    margin-right: 30px;
+    height: 50px;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    
+}
+.iconefilter
+{
+    color:#0065fc;
+    width: 53px;
+    height: 53px;
+    border-radius: 25px;
+    background-color: #deebff;
+    display:flex;
+    padding: 17px;
+    margin-left: -2px;
+}
+.textfilter
+{
+    width: 150px;
+    font-weight:700;
+    text-decoration: none;
+    color:black;
+    padding: 30px;
+}
+.filtertexticons:hover .iconefilter
+{
+color:white;
+background-color: #0065fc;
+}
+                                /*end filter*/
+
+.info
+{
+    display:flex;
+    margin-right: 30px;
+    align-items: center;
+}
+.infoicon
+{
+    color:#0065fc;
+    border-radius:25px ;
+    border:solid #F2F2F2;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+.infotext
+{
+    font-weight: 300;
+}
+                                 /*end info*/
+.appartements
+{
+    display:flex;
+    gap: 40px;
+    margin:30px;
+    
+}
+.appartementslist
+{
+    background-color: #F2F2F2;
+    flex:2;
+    height: 550px;
+    border-radius: 30px;
+    padding: 30px;
+} 
+
+.appartements-options
+{
+    display:flex;
+    gap:40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.appartements-options div
+{
+    display:flex;
+    border:solid white;
+    border-radius: 25px;
+   
+}  
+.hebergementstitle
+{
+    margin-left: 10px;
+}
+.appartements-card1
+{ 
+    flex-direction: column;
+    height: 170px;
+    width:220px;
+    background-color:white;
+    padding-bottom: 5px;
+    border-left:0px;
+    
+}
+.appartements-card1text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card1night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+.star1
+{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-left: 10px;
+       
+}
+a
+{
+    text-decoration: none;
+}
+.blue
+{
+    color:#0065fc;
+}
+.gray
+{
+color:rgb(231, 226, 226)
+}
+.appartements-card1pic
+{
+    width: 215px;
+    height: 100px;
+    padding:3px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.appartements-card2
+{
+    flex-direction: column;
+    height: 170px;
+    width:220px;
+    background-color:white;
+    padding-bottom: 5px;  
+}
+.appartements-card2pic
+{
+    width: 215px;
+    height: 100px;
+    padding:3px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.appartements-card2text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card2night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+.stars2
+{
+    margin:0;
+    padding-left:10px; 
+    padding-bottom:10px;
+}
+.appartements-card3
+{
+    flex-direction: column;
+    height: 170px;
+    width:220px;
+    background-color:white;
+    padding-bottom: 5px;  
+}
+.appartements-card3pic
+{
+    width: 215px;
+    height: 100px;
+    padding:3px;
+    border-radius: 25px 25px 0 0; 
+    object-fit: cover;
+}
+.appartements-card3text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card3night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px; 
+}
+.stars3
+{
+    margin:0;
+    padding-left:10px; 
+    padding-bottom:10px;
+}
+.appartements-card4
+{
+    flex-direction: column;
+    height: 170px;
+    width:220px;
+    background-color:white;
+    padding-bottom: 5px; 
+}
+.appartements-card4pic
+{
+    width: 215px;
+    height: 100px;
+    padding:3px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.appartements-card4text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card4night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px; 
+}
+.stars4
+{
+    margin:0;
+    padding-left:10px; 
+    padding-bottom:10px;
+}
+.appartements-card5
+{
+    flex-direction: column;
+    height: 170px;
+    width:220px;
+    background-color:white;
+    padding-bottom: 5px; 
+}
+.appartements-card5pic
+{
+    width: 215px;
+    height: 100px;
+    padding:3px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.appartements-card5text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card5night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px; 
+}
+.stars5
+{
+    margin:0;
+    padding-left:10px; 
+    padding-bottom:10px;
+}
+.appartements-card6
+{
+    flex-direction: column;
+    height: 170px;
+    width:220px;
+    background-color:white;
+    padding-bottom: 5px; 
+}
+.appartements-card6pic
+{
+    width: 215px;
+    height: 100px;
+    padding:3px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.appartements-card6text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card6night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px; 
+}
+.stars6
+{
+    margin:0;
+    padding-left:10px; 
+    padding-bottom:10px;
+}
+.seemore
+{
+    color:black;
+    font-size: 14px;
+    font-weight: 600;
+}
+                              /*end hebergement cards*/
+.popular
+{
+    background-color:#F2F2F2;
+    flex:1;
+    height:550px;
+    border-radius: 30px;
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+}   
+.popular h3
+{
+    display:flex;
+    justify-content: space-between;
+}
+.popular-cards1
+{
+    display:flex;
+    border-radius: 25px;
+    padding: 7px;
+    background-color: white;
+    height: 135px;
+    margin-bottom: 20px;
+
+}
+.popular-cards1pic
+{
+   flex:1;
+   border-radius: 25px 0 0 25px;
+   height: 122px;
+   width: 100px;
+   object-fit: cover;
+}
+.popular-cards1text
+{
+    flex:2;
+    font-size :14px;
+    font-weight:700;
+    color:black;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.popular-cards1night
+{
+    font-size: 10px;
+    color:black;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.popularstars1
+{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.popular-cards2
+{
+    display:flex;
+    border-radius: 25px;
+    padding: 7px;
+    background-color: white;
+    height: 135px;
+    margin-bottom: 20px;
+
+}
+.popular-cards2pic
+{
+   flex:1;
+   border-radius: 25px 0 0 25px;
+   height: 122px;
+   width: 100px;
+   object-fit: cover;
+}
+.popular-cards2text
+{
+    flex:2;
+    font-size :14px;
+    font-weight:700;
+    color:black;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.popular-cards2night
+{
+    font-size: 10px;
+    color:black;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.popularstars2
+{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.popular-cards3
+{
+    display:flex;
+    border-radius: 25px;
+    padding: 7px;
+    background-color: white;
+    height: 135px;
+
+}
+.popular-cards3pic
+{
+   flex:1;
+   border-radius: 25px 0 0 25px;
+   height: 122px;
+   width: 100px;
+   object-fit: cover;
+}
+.popular-cards3text
+{
+    flex:2;
+    font-size :14px;
+    font-weight:700;
+    color:black;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.popular-cards3night
+{
+    font-size: 10px;
+    color:black;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.popularstars3
+{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+                             /*end popular cards*/
+.activitymarseille
+{
+    display:flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    height: 450px;
+   justify-content: space-between;
+}
+
+.activitytitle
+{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}  
+.activity1
+{
+    display:flex;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+    width: 288px;
+} 
+.activity1pic
+{
+    height: 380px;
+    width: 288px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}    
+.activity1title
+{
+    border-radius: 0 0 25px 25px;
+    color:black;
+    margin-left: 20px;
+    font-weight: 600;
+    width: 288px;
+    font-size: 14px;
+}
+.activity2
+{
+    width: 288px;
+    display:flex;
+    flex-direction: column;
+}
+.activity2-1
+{
+    height:50%;
+    width: 288px;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+    margin-bottom:30px ;
+}
+.activity2-1pic
+{
+    width:100%;
+    height:70%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.activity2-1title
+{
+    color:black;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.activity2-2
+{
+    height:40%;
+    width: 288px;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+}
+.activity2-2pic
+{
+    width:100%;
+    height:70%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.activity2-2title
+{
+    color:black;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.activity3
+{
+    display:flex;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+    width: 288px;
+} 
+.activity3pic
+{
+    height: 380px;
+    width: 288px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}    
+.activity3title
+{
+    border-radius: 0 0 25px 25px;
+    color:black;
+    margin-left: 20px;
+    font-weight: 600;
+    width: 288px;
+    font-size: 14px;
+}
+.activity4
+{
+    width: 288px;
+    display:flex;
+    flex-direction: column;
+}
+.activity4-1
+{
+    height:50%;
+    width: 288px;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+    margin-bottom:30px ;
+}
+.activity4-1pic
+{
+    width:100%;
+    height:70%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.activity4-1title
+{
+    color:black;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top:20px;
+}
+.activity4-2
+{
+    height:40%;
+    width: 288px;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+}
+.activity4-2pic
+{
+    width:100%;
+    height:70%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.activity4-2title
+{
+    color:black;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+  
+}
+                         /*end acivitymarseille*/
+
+footer                         
+{
+   
+    display:flex;
+    width:100%;
+    height: 250px;
+    background-color:#F2F2F2;
+    padding: 10px 0px 0 30px;
+}
+.about
+{
+    display:flex;
+    flex-direction: column;
+    width:450px;
+    height: 170px;
+    align-items:column;
+}
+.about1
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.about2
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.about3
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.aboutlink
+{
+    justify-content: space-between;
+}
+.ourhebergement
+{
+    display:flex;
+    flex-direction: column;
+    width:450px;
+    height: 170px;
+    align-items:column;
+}
+.ourhebergement1
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.ourhebergement2
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.ourhebergementlink
+{
+    justify-content: space-between;
+}
+.assistance
+{
+    display:flex;
+    flex-direction: column;
+    width:450px;
+    height: 170px;
+    align-items:column;
+}
+.assistance1
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.assistance2
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.assistancelink
+{
+    justify-content: space-between;
+}
+
