@@ -193,8 +193,9 @@ background-color: #0065fc;
     margin-left:30px;
     margin-right: 10px;
     width:93%;
-    max-height: 600px;
+    height:550px
 }
+
 .appartementslist
 {
     background-color: #F2F2F2;
@@ -211,12 +212,11 @@ background-color: #0065fc;
     flex-wrap: wrap;
     margin-bottom:30px;
     width:100%;
-    height:60%
+    height:80%;
 }
 .appartemnents-options1-3
 {
     width:100%;
-    
 }
 .appartements-options div
 {
@@ -231,6 +231,7 @@ background-color: #0065fc;
     flex-direction: column;
     height: 80%;
     width: 33%;
+    display:block;
     background-color:white;
     padding-bottom: 5px;
     border-left:0px;
@@ -297,6 +298,7 @@ color:rgb(231, 226, 226)
     border:solid white;
     border-radius: 25px;
     margin-right :20px;
+    display:block;
 }
 .appartements-card2pic
 {
@@ -342,6 +344,7 @@ color:rgb(231, 226, 226)
     border:solid white;
     border-radius: 25px;
     margin-right :20px;
+    display:block;
 }
 .appartements-card3pic
 {
@@ -379,7 +382,7 @@ color:rgb(231, 226, 226)
 }
 .appartemnents-options4-6
 {
-    
+
 }
 .appartements-card4
 {
@@ -393,6 +396,7 @@ color:rgb(231, 226, 226)
     margin-right :20px;
     margin-left :30px; 
     margin-top:-30px;
+    display:block;
 }
 .appartements-card4pic
 {
@@ -439,6 +443,7 @@ color:rgb(231, 226, 226)
     border-radius: 25px;
     margin-right :20px;
     margin-top:-30px;
+    display:block;
 }
 .appartements-card5pic
 {
@@ -485,6 +490,7 @@ color:rgb(231, 226, 226)
     border-radius: 25px;
     margin-right :20px;
     margin-top:-30px;
+    display:block;
 }
 .appartements-card6pic
 {
@@ -524,21 +530,20 @@ color:rgb(231, 226, 226)
 {
     color:black;
     font-size: 14px;
-    font-weight: 600;
-    margin-left: 30px;
-    margin-top:30px
+    font-weight:600;
+    margin-left:30px;
 }
                               /*end hebergement cards*/
 .popular
 {
     background-color:#F2F2F2;
-    width:30%;
-    height:600px;
+    width:35%;
+   
     border-radius: 30px;
     padding: 20px;
     display:flex;
     flex-direction:column;
-    margin-right: 20px0;
+    
 }   
 .popular h3
 {
@@ -551,10 +556,9 @@ color:rgb(231, 226, 226)
     border-radius: 25px;
     padding: 7px;
     background-color: white;
-    height: 135px;
+    height: 25%;
     margin-bottom: 20px;
-    width:100%;
-    min-width:300px;
+    width:100%   
 }
 .populardescription1
 {
@@ -599,11 +603,9 @@ color:rgb(231, 226, 226)
     border-radius: 25px;
     padding: 7px;
     background-color: white;
-    height: 135px;
+    height: 25%;
     margin-bottom: 20px;
     width:100%;
-    min-width:300px;
-
 }
 .populardescription2
 {
@@ -646,9 +648,9 @@ color:rgb(231, 226, 226)
     border-radius: 25px;
     padding: 7px;
     background-color: white;
-    height: 135px;
+    height: 25%;
     width:100%;
-    min-width:300px;
+   
 }
 .populardescription3
 {
@@ -691,15 +693,15 @@ color:rgb(231, 226, 226)
 
                              /*end popular cards*/
 .activitymarseille
-{
+{   
     display:flex;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 50px;
     height: 450px;
-    justify-content: space-between;   
+    max-width:100%;
+    flex-direction: row;
 }
-
 .activitytitle
 {
     margin-left: 30px;
@@ -712,16 +714,21 @@ color:rgb(231, 226, 226)
     flex-direction: column;
     border-radius: 25px;
     box-shadow:#F2F2F2 5px 5px 5px 5px;
-    width: 288px;
-    margin-right: 30px;
+    width: 85%;
+    margin-right:20px;
 } 
 .activity1pic
 {
     height: 380px;
-    width: 288px;
+    width: 100%;
     border-radius: 25px 25px 0 0;
     object-fit: cover;
-}    
+} 
+.activitybloc
+{
+    display:block;
+    width:25%;
+}   
 .activity1title
 {
     border-radius: 0 0 25px 25px;
@@ -733,19 +740,20 @@ color:rgb(231, 226, 226)
 }
 .activity2
 {
-    width: 288px;
+    width: 85%;
     display:flex;
     flex-direction: column;
-    margin-right: 30px;
+    margin-right:20px;
+    
 }
 .activity2-1
 {
     height:50%;
-    width: 288px;
+    width: 100%;
     border-radius: 25px;
     box-shadow:#F2F2F2 5px 5px 5px 5px;
     margin-bottom:30px ;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .activity2-1pic
 {
@@ -765,10 +773,10 @@ color:rgb(231, 226, 226)
 .activity2-2
 {
     height:40%;
-    width: 288px;
+    width: 100%;
     border-radius: 25px;
     box-shadow:#F2F2F2 5px 5px 5px 5px;
-    margin-right: 30px;
+    margin-right:20px;
 }
 .activity2-2pic
 {
@@ -790,13 +798,15 @@ color:rgb(231, 226, 226)
     flex-direction: column;
     border-radius: 25px;
     box-shadow:#F2F2F2 5px 5px 5px 5px;
-    width: 288px;
-    margin-right: 30px;
+    width:85%;
+    margin-right: 20px;
+    margin-left: 20px;
+    
 } 
 .activity3pic
 {
     height: 380px;
-    width: 288px;
+    width: 100%;
     border-radius: 25px 25px 0 0;
     object-fit: cover;
 }    
@@ -804,22 +814,22 @@ color:rgb(231, 226, 226)
 {
     border-radius: 0 0 25px 25px;
     color:black;
-    margin-left: 20px;
+    margin-left: 10px;
     font-weight: 600;
     width: 288px;
     font-size: 14px;
 }
 .activity4
 {
-    width: 288px;
+    width: 85%;
     display:flex;
     flex-direction: column;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .activity4-1
 {
     height:50%;
-    width: 288px;
+    width: 100%;
     border-radius: 25px;
     box-shadow:#F2F2F2 5px 5px 5px 5px;
     margin-bottom:30px ;
@@ -842,7 +852,7 @@ color:rgb(231, 226, 226)
 .activity4-2
 {
     height:40%;
-    width: 288px;
+    width: 100%;
     border-radius: 25px;
     box-shadow:#F2F2F2 5px 5px 5px 5px;
 }
@@ -871,7 +881,7 @@ footer
     height: 250px;
     background-color:#F2F2F2;
     padding: 10px 0px 0 30px;
-    min-width :1300px;
+    
 }
 .about
 {
