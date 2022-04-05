@@ -191,20 +191,20 @@ background-color: #0065fc;
 {
     display:flex;
     margin-left:30px;
-    margin-right: 10px;
-    width:93%;
-    height:550px
+    margin-right:30px;
+    width:100%;
+    height:570px
 }
 
 .appartementslist
 {
     background-color: #F2F2F2;
-    width:80%;
+    width: 910px;;
     border-radius: 30px;
     padding: 30px;
     display:flex;
     flex-direction:column; 
-    margin-right: 30px;
+    margin-right: 50px; 
 } 
 .appartements-options
 {
@@ -213,10 +213,12 @@ background-color: #0065fc;
     margin-bottom:30px;
     width:100%;
     height:80%;
+    gap:10px
 }
 .appartemnents-options1-3
 {
     width:100%;
+    display:flex;
 }
 .appartements-options div
 {
@@ -382,7 +384,7 @@ color:rgb(231, 226, 226)
 }
 .appartemnents-options4-6
 {
-
+display:flex;
 }
 .appartements-card4
 {
@@ -532,18 +534,18 @@ color:rgb(231, 226, 226)
     font-size: 14px;
     font-weight:600;
     margin-left:30px;
+    margin-top: 0;
 }
                               /*end hebergement cards*/
 .popular
 {
     background-color:#F2F2F2;
-    width:35%;
-   
+    width: 418px;
     border-radius: 30px;
     padding: 20px;
     display:flex;
     flex-direction:column;
-    
+    margin-right: 30px;  
 }   
 .popular h3
 {
@@ -556,9 +558,9 @@ color:rgb(231, 226, 226)
     border-radius: 25px;
     padding: 7px;
     background-color: white;
-    height: 25%;
+    height: 23%;
     margin-bottom: 20px;
-    width:100%   
+    width:100%;   
 }
 .populardescription1
 {
@@ -603,9 +605,9 @@ color:rgb(231, 226, 226)
     border-radius: 25px;
     padding: 7px;
     background-color: white;
-    height: 25%;
+    height: 23%;
     margin-bottom: 20px;
-    width:100%;
+    width:100%; 
 }
 .populardescription2
 {
@@ -648,9 +650,8 @@ color:rgb(231, 226, 226)
     border-radius: 25px;
     padding: 7px;
     background-color: white;
-    height: 25%;
+    height: 23%;
     width:100%;
-   
 }
 .populardescription3
 {
@@ -887,7 +888,7 @@ footer
 {
     display:flex;
     flex-direction: column;
-    width:450px;
+    width:30%;
     height: 170px;
     align-items:column;
 }
@@ -920,7 +921,7 @@ footer
 {
     display:flex;
     flex-direction: column;
-    width:450px;
+    width:30%;
     height: 170px;
     align-items:column;
 }
@@ -946,7 +947,7 @@ footer
 {
     display:flex;
     flex-direction: column;
-    width:450px;
+    width:30%;
     height: 170px;
     align-items:column;
 }
@@ -968,3 +969,15 @@ footer
 {
     justify-content: space-between;
 }
+@media screen and (max-width:1027px)
+{
+    .popularstars1 
+    {
+        margin-top:-10px;
+    } 
+    .appartementslist
+    {
+        margin-right: 20px;
+    }
+}
+

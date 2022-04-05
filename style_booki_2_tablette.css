@@ -1,0 +1,42 @@
+.activity 
+{
+    margin-right: 180px
+}
+.filter
+{
+    flex-wrap: wrap;
+}
+.filtertexticons
+{
+    margin-right: 10px;
+   
+}
+.appartements
+{
+    flex-direction:column-reverse;
+    width:100%;
+    display:flex
+}
+.filter{
+
+    margin-bottom: 1250px;
+}
+.appartements
+{
+    width:100%;
+}
+.popular
+{
+    width:100%;
+    max-width: 700px;
+}
+.appartementslist
+{
+    width:100%;
+    max-width: 700px;
+}
+.activitymarseille
+{
+    max-width:700px;
+   flex-wrap: wrap;
+}
