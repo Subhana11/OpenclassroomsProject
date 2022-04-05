@@ -1,0 +1,120 @@
+header
+{
+    flex-direction: column;
+}
+main
+{
+    padding-top: 100px;
+}
+.logo
+{
+    margin-left: 120px;
+}
+.hebergement
+{
+    padding-top:20px;
+    height:30px;
+    padding-left: 60px;
+}
+.activity
+{
+    padding-top:20px;
+    height:30px;
+}
+.hebergement:hover
+{
+    border-top: none;
+    border-bottom: 2px solid;
+    border-color: #0065fc;
+}
+.activity:hover
+{
+    border-top: none;
+    border-bottom: 2px solid;
+    border-color: #0065fc;
+}
+.filter
+{
+    flex-wrap: wrap;
+    max-width:768px;
+}
+.appartements
+{
+    flex-flow: column-reverse;
+    margin-top: 600px;
+}
+.popular
+{
+    margin-left: 50px;
+    width:550px;
+    height:650px;
+}
+.appartementslist
+{
+    height:500px;
+    width:720px
+}
+.appartements-card1
+{
+    width:30%
+}
+.appartements-card2
+{
+    width:30%;
+}
+.appartements-card3
+{
+    width:30%;
+}
+.appartements-card4
+{
+    width:30%;
+}
+.appartements-card5
+{
+    width:30%;
+}
+.appartements-card6
+{
+    width:30%;
+}
+.activitymarseille
+{
+    flex-direction: column;
+    height:3100px;
+    display:block
+}
+.activitybloc
+{
+    width:80%;
+}
+.activity2
+{
+   width:200px
+}
+
+.activity2-1
+{
+    width:85%;
+    height:550px
+}
+.activity2-2
+{
+    width:85%;
+    height:550px;
+}
+.activity3
+{
+    margin-top: 10px;
+    margin-left: 0;
+}
+.activity4-1
+{
+    width:85%;
+    height:550px;
+}
+.activity4-2
+{
+    width:85%;
+    height:550px;
+}
