@@ -1,25 +1,25 @@
 header
 {
     flex-direction: column;
-}
-main
-{
-    padding-top: 100px;
+    height:220px
 }
 .logo
 {
-    margin-left: 120px;
+    margin-left: 250px;
+    justify-content: center;
 }
 .hebergement
 {
     padding-top:20px;
-    height:30px;
+    height:50px;
     padding-left: 60px;
+    margin-left: 150px;
+    text-decoration: underline 3px rgb(218, 212, 212);
 }
 .activity
 {
     padding-top:20px;
-    height:30px;
+    height:50px;
 }
 .hebergement:hover
 {
@@ -33,10 +33,22 @@ main
     border-bottom: 2px solid;
     border-color: #0065fc;
 }
+.navbar
+{
+    padding-bottom: 30px;
+}
+.section1findout
+{
+    max-width: 300px;
+}
 .filter
 {
     flex-wrap: wrap;
-    max-width:768px;
+    max-width:458px;
+}
+.filterheading
+{
+    margin-right: 300px;
 }
 .appartements
 {

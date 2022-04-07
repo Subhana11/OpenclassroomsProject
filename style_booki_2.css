@@ -45,6 +45,7 @@ header
     font-size: 16px;
     font-weight: 600;
 }
+
 .logo
 {
     padding:40px;
@@ -980,4 +981,92 @@ footer
         margin-right: 20px;
     }
 }
-
+@media screen and ( max-width:992px) 
+{
+    .activity 
+    {
+        margin-right: 180px
+    }
+    .filter
+    {
+        flex-wrap: wrap;
+    }
+    .filtertexticons
+    {
+        margin-right: 10px;
+       
+    }
+    .appartements
+    {
+        flex-direction:column-reverse;
+        width:100%;
+        display:flex;
+    }
+    .appartements
+    {
+        max-width: 902px;
+        height:auto;
+        min-width: 768px;
+        width:100%
+    }
+    .popular
+    {
+        width:100%;  
+        max-width:100%;
+    }
+    .popular-cards1
+    {
+        height:250px;
+    }
+    .popular-cards2
+    {
+        height:250px;
+    }
+    .popular-cards3
+    {
+        height:250px;
+    }
+    .appartementslist
+    {
+        width:100%;
+        height:600px;
+    }
+    .activitymarseille
+    {
+        width:100%;
+        max-width:902px;
+    }
+    .activity3title
+    {
+        width:auto;
+    }
+}
+.magnifyingglass
+{
+    mask-image:
+}
+@media screen and (max-width:930px)
+{
+.appartements
+{
+    max-width: 802px;
+}
+.activitymarseille
+{
+    max-width:802px;
+}
+}
+@media screen and (max-width:830px) 
+{
+    .appartementslist
+    {
+        max-width:742px;
+    }
+    .popular{
+        max-width:742px;
+    }
+    .activitymarseille
+    {
+        max-width:742px;
+    }  
+}
