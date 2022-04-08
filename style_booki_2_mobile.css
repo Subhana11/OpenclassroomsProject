@@ -53,52 +53,97 @@ header
 .appartements
 {
     flex-flow: column-reverse;
-    margin-top: 600px;
+    margin-left:0;
 }
 .popular
 {
-    margin-left: 50px;
-    width:550px;
-    height:650px;
+    width:700px;
+    border-radius: 0;
 }
 .appartementslist
 {
-    height:500px;
-    width:720px
+    height:2300px;
+    width:700px;
+    background-color: white;
+}
+.appartements-options
+{
+    height:2250px;
+    margin-bottom:0;
+}
+.appartements-options1-3
+{
+    flex-direction:column;
+    height:50%
+}
+.appartements-options4-6
+{
+    flex-direction:column;
+    height:50%;
 }
 .appartements-card1
 {
-    width:30%
+    width:100%;
+    height:320px;
+    margin-left:0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    box-shadow: #f2f2f2 5px 5px 5px 5px;
 }
 .appartements-card2
 {
-    width:30%;
+    width:100%;
+    height:320px;
+    margin-bottom: 30px;
+    box-shadow: #f2f2f2 5px 5px 5px 5px;
 }
 .appartements-card3
 {
-    width:30%;
+    width:100%;
+    height:320px;
+    margin-bottom: 30px;
+    box-shadow: #f2f2f2 5px 5px 5px 5px;
 }
 .appartements-card4
 {
-    width:30%;
+    width:100%;
+    height:320px;
+    margin-bottom: 60px;
+    margin-left:0;
+    box-shadow: #f2f2f2 5px 5px 5px 5px;
 }
 .appartements-card5
 {
-    width:30%;
+    width:100%;
+    height:320px;
+    margin-bottom: 60px;
+    box-shadow: #f2f2f2 5px 5px 5px 5px;
 }
 .appartements-card6
 {
-    width:30%;
+    width:100%;
+    height:320px;
+    margin-bottom: 60px;
+    box-shadow: #f2f2f2 5px 5px 5px 5px;
 }
 .activitymarseille
 {
     flex-direction: column;
-    height:3100px;
-    display:block
+    height:100%;
+    display:block;
+    width:100%
 }
 .activitybloc
 {
-    width:80%;
+    width:100%;
+}
+.activitytitle
+{
+    margin-top: 0;
+}
+.activity1
+{
+    margin-right: -20px;
 }
 .activity2
 {
