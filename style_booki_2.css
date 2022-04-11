@@ -7,7 +7,6 @@
 body
 {
     width:100%;
-    min-width: 1000px;
     margin-right: 0px;
     margin-left: 0px;
 }
@@ -34,7 +33,7 @@ header
     padding: 40px;
     text-decoration: none;
     color:black;
-    font: size 16px;
+    font-size :16px;
     font-weight: 600;
 }
 .activity
@@ -880,7 +879,6 @@ footer
    
     display:flex;
     width:100%;
-    height: 250px;
     background-color:#F2F2F2;
     padding: 10px 0px 0 30px;
     
@@ -970,6 +968,11 @@ footer
 {
     justify-content: space-between;
 }
+.magnifyingglass
+{
+    display:none;
+}
+
 @media screen and (max-width:1027px)
 {
     .popularstars1 
@@ -983,10 +986,6 @@ footer
 }
 @media screen and ( max-width:992px) 
 {
-    .activity 
-    {
-        margin-right: 180px
-    }
     .filter
     {
         flex-wrap: wrap;
@@ -1040,10 +1039,6 @@ footer
     {
         width:auto;
     }
-}
-.magnifyingglass
-{
-    mask-image:
 }
 @media screen and (max-width:930px)
 {

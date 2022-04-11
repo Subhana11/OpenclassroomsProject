@@ -13,13 +13,16 @@ header
     padding-top:20px;
     height:50px;
     padding-left: 60px;
-    margin-left: 150px;
     text-decoration: underline 3px rgb(218, 212, 212);
+    width:50%;
+    margin-left: 90px;
 }
 .activity
 {
     padding-top:20px;
     height:50px;
+    width:50%;
+    margin-right: 0;
 }
 .hebergement:hover
 {
@@ -36,6 +39,9 @@ header
 .navbar
 {
     padding-bottom: 30px;
+    width:100%;
+    max-width: 600px;
+    margin-right: 0;
 }
 .section1findout
 {
@@ -49,6 +55,10 @@ header
 .filterheading
 {
     margin-right: 300px;
+}
+.filtertexticons
+{
+    margin-bottom: 10px;
 }
 .appartements
 {
@@ -174,4 +184,29 @@ header
 {
     width:85%;
     height:550px;
+}
+.search-btn
+{
+    display:none;
+}
+.magnifyingglass
+{
+    display:block;
+    width:50px;
+    height:50px;
+    background-color: #0065fc;
+    padding-top: 17px;
+    padding-left:17px;
+    border-radius: 20px 20px 20px 20px;
+    color:white;
+}
+footer
+{
+    max-width: 800px;
+    flex-direction: column;
+    height:400px;
+}
+body{
+    max-width: fit-content;
+    min-width: none;
 }
