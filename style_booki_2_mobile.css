@@ -1,28 +1,30 @@
 header
 {
     flex-direction: column;
-    height:220px
+    height:220px;
+    margin-right:0px;
 }
 .logo
 {
-    margin-left: 250px;
+    display:flex;
     justify-content: center;
 }
 .hebergement
 {
-    padding-top:20px;
     height:50px;
-    padding-left: 60px;
-    text-decoration: underline 3px rgb(218, 212, 212);
     width:50%;
-    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    border-bottom: #f2f2f2 solid 4px;
 }
 .activity
 {
-    padding-top:20px;
     height:50px;
     width:50%;
     margin-right: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: #f2f2f2 solid 4px;
 }
 .hebergement:hover
 {
@@ -40,7 +42,6 @@ header
 {
     padding-bottom: 30px;
     width:100%;
-    max-width: 600px;
     margin-right: 0;
 }
 .section1findout
@@ -153,37 +154,65 @@ header
 }
 .activity1
 {
-    margin-right: -20px;
+    width:90%;
+    margin-bottom: 30px;
+}
+.activity1pic
+{
+    height:200px;  
 }
 .activity2
 {
-   width:200px
+   width:90%;
 }
-
 .activity2-1
 {
-    width:85%;
-    height:550px
+    width:90%;
+    height:100%;
+}
+.activity2-1pic
+{
+    height:200px;
 }
 .activity2-2
 {
-    width:85%;
-    height:550px;
+    width:90%;
+    height:100%;
+    margin-bottom: 30px;
+}
+.activity2-2pic
+{
+    height:200px;
 }
 .activity3
 {
     margin-top: 10px;
     margin-left: 0;
+    width:90%;
+    height:100%;
+    margin-bottom: 30px;
+}
+.activity3pic
+{
+    height:200px;
 }
 .activity4-1
 {
-    width:85%;
-    height:550px;
+    width:90%;
+    height:100%;
+}
+.activity4-1pic
+{
+    height:200px;
 }
 .activity4-2
 {
-    width:85%;
-    height:550px;
+    width:90%;
+    height:100%;
+}
+.activity4-2pic
+{
+    height:200px;
 }
 .search-btn
 {
@@ -210,3 +239,4 @@ body{
     max-width: fit-content;
     min-width: none;
 }
+

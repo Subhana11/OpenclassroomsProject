@@ -1032,8 +1032,7 @@ footer
     }
     .activitymarseille
     {
-        width:100%;
-        max-width:902px;
+        width:95%;
     }
     .activity3title
     {
@@ -1048,7 +1047,7 @@ footer
 }
 .activitymarseille
 {
-    max-width:802px;
+    width:95%;
 }
 }
 @media screen and (max-width:830px) 
@@ -1062,6 +1061,6 @@ footer
     }
     .activitymarseille
     {
-        max-width:742px;
+        width:95%;
     }  
 }
