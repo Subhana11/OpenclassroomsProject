@@ -1016,31 +1016,36 @@ footer
     }
     .appartements
     {
-        max-width: 902px;
+        
         height:auto;
-        min-width: 768px;
+        
         width:100%
     }
     .popular
     {
         width:100%;  
         max-width:100%;
+        margin-bottom: 30px;
+    }
+    .popular-cards
+    {
+        width:97%;
     }
     .popular-cards1
     {
-        height:250px;
+        height:200px;
     }
     .popular-cards2
     {
-        height:250px;
+        height:200px;
     }
     .popular-cards3
     {
-        height:250px;
+        height:200px;
     }
     .appartementslist
     {
-        width:100%;
+        width:95%;
         height:600px;
     }
     .activitymarseille
@@ -1056,7 +1061,7 @@ footer
 {
 .appartements
 {
-    max-width: 802px;
+    width:100%;
 }
 .activitymarseille
 {
@@ -1065,13 +1070,6 @@ footer
 }
 @media screen and (max-width:830px) 
 {
-    .appartementslist
-    {
-        max-width:742px;
-    }
-    .popular{
-        max-width:742px;
-    }
     .activitymarseille
     {
         width:95%;

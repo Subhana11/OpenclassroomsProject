@@ -68,13 +68,11 @@ header
 }
 .popular
 {
-    width:700px;
     border-radius: 0;
 }
 .appartementslist
 {
     height:2300px;
-    width:700px;
     background-color: white;
 }
 .appartements-options
