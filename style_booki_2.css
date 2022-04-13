@@ -1018,12 +1018,12 @@ footer
     {
         
         height:auto;
-        
-        width:100%
+        width:100%;
+       
     }
     .popular
     {
-        width:100%;  
+        width:95%;  
         max-width:100%;
         margin-bottom: 30px;
     }
@@ -1055,6 +1055,10 @@ footer
     .activity3title
     {
         width:auto;
+    }
+    .seemore
+    {
+        font-size: 18px;
     }
 }
 @media screen and (max-width:930px)

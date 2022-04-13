@@ -8,6 +8,7 @@ header
 {
     display:flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 .hebergement
 {
@@ -69,31 +70,32 @@ header
 .popular
 {
     border-radius: 0;
+    width:100%;
 }
 .appartementslist
 {
-    height:2300px;
+    height:auto;
     background-color: white;
+    width:100%;
+    padding-top: 0;
 }
 .appartements-options
 {
-    height:2250px;
+    height:auto;
     margin-bottom:0;
+    gap:30px;
 }
 .appartements-options1-3
 {
     flex-direction:column;
-    height:50%
 }
 .appartements-options4-6
 {
     flex-direction:column;
-    height:50%;
 }
 .appartements-card1
 {
     width:100%;
-    height:320px;
     margin-left:0;
     margin-right: 0;
     margin-bottom: 30px;
@@ -102,38 +104,85 @@ header
 .appartements-card2
 {
     width:100%;
-    height:320px;
     margin-bottom: 30px;
     box-shadow: #f2f2f2 5px 5px 5px 5px;
 }
 .appartements-card3
 {
     width:100%;
-    height:320px;
     margin-bottom: 30px;
     box-shadow: #f2f2f2 5px 5px 5px 5px;
+    max-height: 260px;
 }
 .appartements-card4
 {
     width:100%;
-    height:320px;
     margin-bottom: 60px;
     margin-left:0;
     box-shadow: #f2f2f2 5px 5px 5px 5px;
+    height:250px;
 }
 .appartements-card5
 {
     width:100%;
-    height:320px;
     margin-bottom: 60px;
     box-shadow: #f2f2f2 5px 5px 5px 5px;
+    height:250px;
 }
 .appartements-card6
 {
     width:100%;
-    height:320px;
     margin-bottom: 60px;
     box-shadow: #f2f2f2 5px 5px 5px 5px;
+    height:250px;
+}
+.appartements-card1link
+{
+    height:250px;
+}
+.appartements-card2link
+{
+    height:250px;
+}
+.appartements-card3link
+{
+    height:100%;
+}
+.appartements-card4link
+{
+    height:250px;
+}
+.appartements-card5link
+{
+    height:250px;
+}
+.appartements-card6link
+{
+    max-height:250px;
+}
+.appartements-card1pic
+{
+    height:70%;
+}
+.appartements-card2pic
+{
+    height:70%;
+}
+.appartements-card3pic
+{
+    height:70%;
+}
+.appartements-card4pic
+{
+    height:70%;
+}
+.appartements-card5pic
+{
+    height:70%;
+}
+.appartements-card6pic
+{
+    height:70%;
 }
 .activitymarseille
 {
@@ -232,6 +281,21 @@ footer
     max-width: 800px;
     flex-direction: column;
     height:400px;
+}
+.about
+{
+    width:100%;
+    height:auto;
+}
+.assistance
+{
+    width:100%;
+    height:auto;
+}
+.ourhebergement
+{
+    width:100%;
+    height:auto;
 }
 body{
     max-width: fit-content;
