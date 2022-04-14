@@ -104,6 +104,8 @@ h1
     padding-left: 10px;
     font-size: medium;
     font-weight:bold; 
+    border-top: #F2F2F2 solid 2px;
+    border-bottom: #F2F2F2 solid 2px;
 }
 .icone
 {
@@ -1080,6 +1082,10 @@ footer
     .seemore
     {
         font-size: 18px;
+    }
+    .seemorediv
+    {
+        margin-top:10px;
     }
 }
 @media screen and (max-width:930px)
