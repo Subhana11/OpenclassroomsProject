@@ -1087,6 +1087,18 @@ footer
     {
         margin-top:10px;
     }
+    .populardescription1
+    {
+    margin-left:60px;
+    }
+    .popular-card1divpic
+    {
+    width:55%;
+    }
+    .popular-cards2pic
+    {
+    width:83%;
+    }
 }
 @media screen and (max-width:930px)
 {

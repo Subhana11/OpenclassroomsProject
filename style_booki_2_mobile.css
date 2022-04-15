@@ -8,24 +8,26 @@ header
 {
     display:flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding:50px;
 }
 .hebergement
 {
-    height:50px;
+    height:100%;
     width:50%;
     display: flex;
     justify-content: center;
     border-bottom: #f2f2f2 solid 4px;
+    padding:10px;
 }
 .activity
 {
-    height:50px;
+    height:100%;
     width:50%;
     margin-right: 0;
     display: flex;
     justify-content: center;
     border-bottom: #f2f2f2 solid 4px;
+    padding:10px;
 }
 .hebergement:hover
 {
@@ -72,6 +74,14 @@ header
     border-radius: 0;
     width:100%;
     margin-right: 0px;
+}
+.populardescription1
+{
+    margin-left:60px;
+}
+.popular-card1divpic
+{
+    width:55%;
 }
 .appartementslist
 {
