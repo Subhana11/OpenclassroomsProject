@@ -1,0 +1,1116 @@
+* 
+{
+   box-sizing: border-box;
+   font-family:'Raleway','sans-serrif';
+}
+body
+{
+    width:100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+header
+{
+    display:flex;
+    height: 120px;
+    margin-right:30px;
+}
+.navbar
+{
+    display:flex;
+    flex:1;
+    padding:0px;
+    width:100%;
+    
+}
+.logo{
+    flex:2;
+}
+.hebergement
+{
+    padding: 40px;
+    text-decoration: none;
+    color:black;
+    font-size :16px;
+    font-weight: 600;
+}
+.activity
+{
+    padding: 40px;
+    text-decoration:none;
+    color:black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logo
+{
+    padding:40px;
+}
+.activity:hover 
+{
+    border-top: solid 3px ;  
+    color: #0065fc
+}
+.hebergement:hover
+{
+    border-top:solid 3px ;
+    color: #0065fc;
+}
+img
+{
+    width: 90px;
+}
+                            /* end navbar*/
+h1
+{
+   font-size: 20px;
+   margin-block-start: 0px;
+   margin-block-end: 0px;
+}
+.section1
+{
+    margin-left: 30px;  
+}
+.subtitle
+{
+    margin-block-start:6px;  
+    font-size :14px;
+    font-weight: 250;
+    margin-bottom: 20px;
+}
+.form
+{
+    display:flex;
+    flex-direction:row;
+    padding:20px 20px 20px 0px ;
+}
+.search-btn
+{
+    border-radius: 0px 10px 10px 0px;
+    width: 130px;
+    height: 50px;  
+    background-color: #0065fc;
+    color:white;
+    font-size: medium;
+    font-weight:bold;
+    border:#0065fc;
+}
+.search-area{
+    width: 200px; 
+    height: 50px;
+    border:grey;
+    padding-left: 10px;
+    font-size: medium;
+    font-weight:bold; 
+    border-top: #F2F2F2 solid 2px;
+    border-bottom: #F2F2F2 solid 2px;
+}
+.icone
+{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    background-color:#F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+                     /*end section1 search-area*/
+
+.filter
+{
+    display:flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    align-items: center;
+
+}
+h3
+{
+    margin-right: 30px;
+}
+.filtertexticons
+{
+    border:3px solid #F2F2F2;
+    margin-right: 20px;
+    height: 50px;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    
+}
+.iconefilter
+{
+    color:#0065fc;
+    width: 53px;
+    height: 53px;
+    border-radius: 25px;
+    background-color: #deebff;
+    display:flex;
+    padding: 17px;
+    margin-left: -2px;
+}
+.textfilter
+{
+    width: 150px;
+    font-weight:700;
+    text-decoration: none;
+    color:black;
+    padding:10px;
+}
+.filtertexticons:hover .iconefilter
+{
+color:white;
+background-color: #0065fc;
+}
+                                /*end filter*/
+
+.info
+{
+    display:flex;
+    margin-right: 30px;
+    align-items: center;
+}
+.infoicon
+{
+    color:#0065fc;
+    border-radius:25px ;
+    border:solid #F2F2F2;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+.infotext
+{
+    font-weight: 300;
+}
+                                 /*end info*/
+.appartements
+{
+    display:flex;
+    padding-left:30px;
+    margin-right:30px;
+    width:100%;
+    height:570px
+}
+
+.appartementslist
+{
+    background-color: #F2F2F2;
+    width: 910px;;
+    border-radius: 30px;
+    padding: 30px;
+    display:flex;
+    flex-direction:column; 
+    margin-right: 50px; 
+} 
+.appartements-options
+{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom:30px;
+    width:100%;
+    height:80%;
+    gap:10px
+}
+.appartemnents-options1-3
+{
+    width:100%;
+    display:flex;
+}
+.appartements-options div
+{
+    display:flex; 
+}  
+.hebergementstitle
+{
+    margin-left: 10px;
+}
+.appartements-card1
+{ 
+    flex-direction: column;
+    height: 80%;
+    width: 33%;
+    display:block;
+    background-color:white;
+    padding-bottom: 5px;
+    border-left:0px;
+    border:solid white;
+    border-radius: 25px;
+    margin-right :20px;
+    margin-left: 30px;
+    
+}
+.appartements-card1text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card1night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+.star1
+{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-left: 10px;
+       
+}
+a
+{
+    text-decoration: none;
+}
+.blue
+{
+    color:#0065fc;
+}
+.gray
+{
+color:rgb(231, 226, 226)
+}
+.appartements-card1pic
+{
+    width: 100%;
+    height: 50%;
+    padding:3px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.appartements-card2
+{
+    flex-direction: column;
+    height: 80%;
+    width: 33%;
+    background-color:white;
+    padding-bottom: 5px;  
+    border:solid white;
+    border-radius: 25px;
+    margin-right :20px;
+    display:block;
+}
+.appartements-card2pic
+{
+    width: 100%;
+    height: 47%;
+    padding:3px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.appartements-card2text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card2night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+.stars2
+{
+    margin:0;
+    padding-left:10px; 
+    padding-bottom:10px;
+}
+.appartements-card3
+{
+    flex-direction: column;
+    height: 80%;
+    width: 33%;
+    background-color:white;
+    padding-bottom: 5px;  
+    border:solid white;
+    border-radius: 25px;
+    margin-right :20px;
+    display:block;
+}
+.appartements-card3pic
+{
+    width: 100%;
+    height: 47%;
+    padding:3px;
+    border-radius: 25px 25px 0 0; 
+    object-fit: cover;
+}
+.appartements-card3text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card3night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px; 
+}
+.stars3
+{
+    margin:0;
+    padding-left:10px; 
+    padding-bottom:10px;
+}
+.appartemnents-options4-6
+{
+display:flex;
+}
+.appartements-card4
+{
+    flex-direction: column;
+    height: 50%;
+    width: 33%;
+    background-color:white;
+    padding-bottom: 5px;
+    border:solid white;
+    border-radius: 25px;
+    margin-right :20px;
+    margin-left :30px; 
+    margin-top:-30px;
+    display:block;
+}
+.appartements-card4pic
+{
+    width: 100%;
+    height:35%;
+    padding:3px;
+    border-radius: 25px 25px 0 0;
+    object-fit:cover;
+}
+.appartements-card4text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card4night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px; 
+}
+.stars4
+{
+    margin:0;
+    padding-left:10px; 
+    padding-bottom:10px;
+}
+.appartements-card5
+{
+    flex-direction: column;
+    height: 50%;
+    width: 33%;
+    background-color:white;
+    padding-bottom: 5px; 
+    border:solid white;
+    border-radius: 25px;
+    margin-right :20px;
+    margin-top:-30px;
+    display:block;
+}
+.appartements-card5pic
+{
+    width: 100%;
+    height: 50%;
+    padding:3px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.appartements-card5text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card5night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px; 
+}
+.stars5
+{
+    margin:0;
+    padding-left:10px; 
+    padding-bottom:10px;
+}
+.appartements-card6
+{
+    flex-direction: column;
+    height: 50%;
+    width: 33%;
+    background-color:white;
+    padding-bottom: 5px; 
+    border:solid white;
+    border-radius: 25px;
+    margin-right :20px;
+    margin-top:-30px;
+    display:block;
+}
+.appartements-card6pic
+{
+    width: 100%;
+    height: 25%;
+    padding:3px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.appartements-card6text
+{
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin:0px;
+    text-decoration:underline white;
+    color:black;
+}
+.appartements-card6night
+{
+    margin:0;
+    padding-left: 10px;
+    text-decoration: underline white;
+    color:black;
+    padding-bottom: 5px;
+    font-size: 10px; 
+}
+.stars6
+{
+    margin:0;
+    padding-left:10px; 
+    padding-bottom:10px;
+}
+.seemore
+{
+    color:black;
+    font-size: 17px;
+    font-weight:600;
+    margin-left:30px;
+    margin-top: 0;
+}
+                              /*end hebergement cards*/
+.popular
+{
+    background-color:#F2F2F2;
+    width: 418px;
+    border-radius: 30px;
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    margin-right: 30px;  
+}   
+.popular h3
+{
+    display:flex;
+    justify-content: space-between;
+}
+.popular-cards1
+{
+    margin-top: 30px;
+
+}
+.popular-cards1
+{
+    display:flex;
+    border-radius: 25px;
+    padding: 7px;
+    background-color: white;
+    height: 25%;
+    margin-bottom: 20px;
+    width:100%;   
+}
+.populardescription1
+{
+    width:80%;
+    margin-left:20px;
+}
+.popular-card1divpic
+{
+    width:45%
+}
+.popular-cards1pic
+{
+  
+   border-radius: 25px 0 0 25px;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.popular-cards1text
+{
+    font-size :14px;
+    font-weight:700;
+    color:black;
+    margin-bottom: 0px;
+}
+.popular-cards1night
+{
+    font-size: 10px;
+    color:black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.popularstars1
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.popular-cards2
+{
+    display:flex;
+    border-radius: 25px;
+    padding: 7px;
+    background-color: white;
+    height: 25%;
+    margin-bottom: 20px;
+    width:100%; 
+}
+.populardescription2
+{
+    width:55%;
+}
+.popular-card2divpic
+{
+    width:45%;
+}
+.popular-cards2pic
+{
+   border-radius: 25px 0 0 25px;
+   height:100%;
+   width: 80%;
+   object-fit: cover;
+}
+.popular-cards2text
+{
+    font-size :14px;
+    font-weight:700;
+    color:black;
+    margin-bottom: 0px;
+}
+.popular-cards2night
+{
+    font-size: 10px;
+    color:black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.popularstars2
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.popular-cards3
+{
+    display:flex;
+    border-radius: 25px;
+    padding: 7px;
+    background-color: white;
+    height: 25%;
+    width:100%;
+}
+.populardescription3
+{
+    width:70%;
+    margin-left :-25px;
+}
+.popular-card3divpic
+{
+    width:60%;
+}
+.popular-cards3pic
+{
+   border-radius: 25px 0 0 25px;
+   height:100%;
+   width: 80%;
+   object-fit: cover;
+}
+.popular-cards3text
+{
+    font-size :14px;
+    font-weight:700;
+    color:black;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.popular-cards3night
+{
+    font-size: 10px;
+    color:black;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.popularstars3
+{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+                             /*end popular cards*/
+.activitymarseille
+{   
+    display:flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    height: 450px;
+    max-width:100%;
+    flex-direction: row;
+}
+.activitytitle
+{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}  
+.activity1
+{
+    display:flex;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+    width: 85%;
+    margin-right:20px;
+} 
+.activity1pic
+{
+    height: 380px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+} 
+.activitybloc
+{
+    display:block;
+    width:25%;
+}   
+.activity1title
+{
+    border-radius: 0 0 25px 25px;
+    color:black;
+    margin-left: 20px;
+    font-weight: 600;
+    width: 288px;
+    font-size: 14px;
+}
+.activity2
+{
+    width: 85%;
+    display:flex;
+    flex-direction: column;
+    margin-right:20px;
+    
+}
+.activity2-1
+{
+    height:50%;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+    margin-bottom:30px ;
+    margin-right: 20px;
+}
+.activity2-1pic
+{
+    width:100%;
+    height:70%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.activity2-1title
+{
+    color:black;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.activity2-2
+{
+    height:40%;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+    margin-right:20px;
+}
+.activity2-2pic
+{
+    width:100%;
+    height:70%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.activity2-2title
+{
+    color:black;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.activity3
+{
+    display:flex;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+    width:85%;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+} 
+.activity3pic
+{
+    height: 380px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}    
+.activity3title
+{
+    border-radius: 0 0 25px 25px;
+    color:black;
+    margin-left: 10px;
+    font-weight: 600;
+    width: 288px;
+    font-size: 14px;
+}
+.activity4
+{
+    width: 85%;
+    display:flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.activity4-1
+{
+    height:50%;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+    margin-bottom:30px ;
+}
+.activity4-1pic
+{
+    width:100%;
+    height:70%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.activity4-1title
+{
+    color:black;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top:20px;
+}
+.activity4-2
+{
+    height:40%;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow:#F2F2F2 5px 5px 5px 5px;
+}
+.activity4-2pic
+{
+    width:100%;
+    height:70%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.activity4-2title
+{
+    color:black;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+  
+}
+                         /*end acivitymarseille*/
+
+footer                         
+{
+   
+    display:flex;
+    width:100%;
+    background-color:#F2F2F2;
+    padding: 10px 0px 0 30px;
+    
+}
+.about
+{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    height: 170px;
+}
+.about1
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.about2
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.about3
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.aboutlink
+{
+    justify-content: space-between;
+}
+.ourhebergement
+{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    height: 170px;
+}
+.ourhebergement1
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.ourhebergement2
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.ourhebergementlink
+{
+    justify-content: space-between;
+}
+.assistance
+{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    height: 170px;
+}
+.assistance1
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.assistance2
+{
+    color:black;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.assistancelink
+{
+    justify-content: space-between;
+}
+.magnifyingglass
+{
+    display:none;
+}
+@media screen and (max-width:1227px)
+{
+    .appartements-options
+    {
+        gap:30px;
+    }
+    .seemorediv
+    {
+        margin-top:-20px;
+    }
+}
+
+@media screen and (max-width:1027px)
+{
+    .popularstars1 
+    {
+        margin-top:-10px;
+    } 
+    .popularstars2
+    {
+        margin-top:-10px;
+    }
+    .popularstars3
+    {
+        margin-top:-10px;
+    }
+    .appartementslist
+    {
+        margin-right: 20px;
+    }
+    .appartements-options
+    {
+        gap:30px;
+    }
+    .seemorediv
+    {
+        margin-top:-30px;
+    }
+}
+@media screen and ( max-width:1102px)
+{
+    .seemorediv
+    {
+        margin-top:-20px;
+    }
+}
+@media screen and ( max-width:992px) 
+{
+    .filter
+    {
+        flex-wrap: wrap;
+    }
+    .filtertexticons
+    {
+        margin-right: 10px; 
+    }
+    .appartements
+    {
+        flex-direction:column-reverse;
+        width:100%;
+        display:flex;
+    }
+    .appartements
+    {
+        height:auto;
+        width:100%;  
+    }
+    .popular
+    {
+        width:95%;  
+        max-width:100%;
+        margin-bottom: 30px;
+    }
+    .popular-cards
+    {
+        width:97%;
+    }
+    .popular-cards1
+    {
+        height:200px;
+    }
+    .popular-cards2
+    {
+        height:200px;
+    }
+    .popular-cards3
+    {
+        height:200px;
+    }
+    .appartementslist
+    {
+        width:95%;
+        height:600px;
+    }
+    .activitymarseille
+    {
+        width:95%;
+    }
+    .activity3title
+    {
+        width:auto;
+    }
+    .seemore
+    {
+        font-size: 18px;
+    }
+    .seemorediv
+    {
+        margin-top:10px;
+    }
+    .populardescription1
+    {
+    margin-left:60px;
+    }
+    .popular-card1divpic
+    {
+    width:55%;
+    }
+    .popular-cards2pic
+    {
+    width:83%;
+    }
+}
+@media screen and (max-width:930px)
+{
+.appartements
+{
+    width:100%;
+}
+.activitymarseille
+{
+    width:95%;
+}
+}
+@media screen and (max-width:830px) 
+{
+    .activitymarseille
+    {
+        width:95%;
+    }  
+}
