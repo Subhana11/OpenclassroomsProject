@@ -887,6 +887,10 @@ footer
     padding: 10px 0px 0 30px;
     
 }
+a
+{
+    color:black;
+}
 .about
 {
     display:flex;
@@ -897,9 +901,9 @@ footer
 .about1
 {
     color:black;
-    font-size: 12px;
-    font-weight: 300;
-    margin-bottom: 10px;
+    font-size:12px;
+    font-weight:300;
+    margin-bottom:10px;
 }
 .about2
 {
