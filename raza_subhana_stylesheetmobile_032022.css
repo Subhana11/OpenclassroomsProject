@@ -55,10 +55,12 @@ header
 {
     flex-wrap: wrap;
     max-width:400px;
+    margin-right:0px;
 }
+
 .filterheading
 {
-    margin-right: 300px;
+    margin-right:250px;
 }
 .filtertexticons
 {
